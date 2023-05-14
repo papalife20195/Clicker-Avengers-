@@ -3,11 +3,38 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  
+}
+
+.sign {
+  position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 22px;
+    font-family: 'Avengero Disassembled', sans-serif;
 }
 
 span{
     position: absolute;
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 30%);
+    font-size: 22px;
+    font-family: 'Avengero Disassembled', sans-serif;
 }
+
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 1250px;
+  width: 100px;
+  margin-top: -739px;
+}
+
+.buttons-container input {
+  margin-bottom: 10px;
+}
+
