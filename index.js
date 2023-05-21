@@ -7,14 +7,15 @@
 // const randomGr = Math.floor(Math.random()*3);
 // alert(greeting[randomGr]);
 
-// фон
-// document.body.style.backgroundImage = "";
+// фоновая музыка
 
 const audio = document.createElement('audio');
 audio.src = '/music/Thanos_theme.mp3';
 audio.autoplay = true;
 audio.loop = true;
 document.body.appendChild(audio);
+
+// кнопка выключения музыки
 
 const toggleButton = document.createElement('button');
 toggleButton.classList.add('toggleButton');
@@ -37,6 +38,8 @@ toggleButton.addEventListener('click', function() {
 
 
 
+// фон
+// document.body.style.backgroundImage = "";
 
 const videoContainer = document.createElement('div');
 videoContainer.classList.add('background')
