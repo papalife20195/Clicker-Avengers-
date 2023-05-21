@@ -29,17 +29,12 @@ document.body.appendChild(toggleButton);
 toggleButton.addEventListener('click', function() {
   if (audio.paused) {
     audio.play();
-    image.alt = 'Выключить музыку';
   } else {
     audio.pause();
-    image.alt = 'Включить музыку';
   }
 });
 
-
-
 // фон
-// document.body.style.backgroundImage = "";
 
 const videoContainer = document.createElement('div');
 videoContainer.classList.add('background')
@@ -111,6 +106,7 @@ const buttonsContainer = document.createElement('div');
 buttonsContainer.classList.add('buttons-container');
 
 // фиолетовый
+
 const button1 = document.createElement('input');
 button1.type = 'image'; //указывает, что тип кнопки картинка
 button1.src = '/image/Purple_stone.png';
@@ -124,6 +120,7 @@ button1.addEventListener('mousedown', function() {
 button1.addEventListener('mouseup', function() {
   button1.style.transform = 'scale(1)'; 
 });
+
 
 // синий
 const button2 = document.createElement('input');
@@ -224,7 +221,6 @@ document.body.appendChild(buttonsContainer);
 //   });
 //   button6.addEventListener('click', handler)
 // }
-
 
 
 
