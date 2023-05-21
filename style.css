@@ -42,7 +42,7 @@ filter: saturate(170%);
   width: 400px; /* Ширина контейнера */
     justify-content: flex-end; /* Выравнивание элементов по правому краю */
     width: 400px;
-    margin-top: -710px; /* Сдвиг контейнера вверх*/
+    margin-top: -720px; /* Сдвиг контейнера вверх*/
     margin-left: auto; /* Сдвиг контейнера вправо */
     margin-right: 90px; /* Дополнительный сдвиг контейнера вправо */
   }
@@ -54,6 +54,7 @@ filter: saturate(170%);
   width: 240px; /* Ширина кнопок */
   height:120px;
   transition: 0.2s;
+  
 }
 
 .background{
@@ -83,6 +84,9 @@ filter: saturate(170%);
   max-height: 100%; /* Ограничьте высоту изображения по размеру родительского элемента */
  
 }
+
+
+
 
 
 /* .backgroundVideo{
