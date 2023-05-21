@@ -5,7 +5,7 @@ buttonsContainer.classList.add('buttons-container');
 const buttonData = [
   {
     src: 'https://www.pngarts.com/files/2/Star-Ruby-Stone-Free-PNG-Image.png',
-    caption: 'Фиолетовый камень'
+    caption: 'Фиолетовый камень',
   },
   {
     src: 'https://www.pngarts.com/files/2/Topaz-Stone-PNG-Image.png',
