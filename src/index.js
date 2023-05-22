@@ -1,3 +1,5 @@
+
+
 // Приветствие
 // const greeting = [
 //   'Добрый день, пользователь',
@@ -101,10 +103,6 @@ block.appendChild(imgButton);
 const clickCountere = document.createElement('span');
 
 block.appendChild(clickCountere);
-
-// const buttonsContainer = document.createElement('div');
-// buttonsContainer.classList.add('buttons-container');
-
 
 
 
