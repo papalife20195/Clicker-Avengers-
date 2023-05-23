@@ -36,22 +36,22 @@ filter: saturate(170%);
 
 
 .buttons-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap; 
   align-items: flex-start; 
-  width: 400px; 
     justify-content: flex-end; 
     width: 100px;
     margin-left: auto; 
     margin-right: 90px; 
+    
   }
   
 
 
 .buttons-container input {
-  margin-bottom: 1px; 
-  width: 240px; 
+  width: 217px; 
   transition: 0.2s;
+  
 }
 
 .background{
@@ -71,7 +71,7 @@ filter: saturate(170%);
   border: none;
   outline: none;
   transition: 0.2s;
-  margin-top: -730px;
+  margin-top: -745px;
   position: absolute;
 }
 

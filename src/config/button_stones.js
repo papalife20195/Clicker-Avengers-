@@ -42,6 +42,6 @@ const button_stones = () => {
   });
 
   document.body.appendChild(buttonsContainer);
-  console.log("fjhifdj");
+
 };
 export default button_stones;
