@@ -28,12 +28,12 @@ const button_stones = () => {
   buttonsContainer.classList.add("buttons-container");
 
   const buttonImages = [
-    "/image/Purple_stone.png",
-    "/image/Blue_stone.png",
-    "/image/Red_stone.png",
-    "/image/Yellow_stone.png",
-    "/image/Green_stone.png",
-    "/image/Orange_stone.png",
+    "/src/assets/image/Purple_stone.png",
+    "/src/assets/image/Blue_stone.png",
+    "/src/assets/image/Red_stone.png",
+    "/src/assets/image/Yellow_stone.png",
+    "/src/assets/image/Green_stone.png",
+    "/src/assets/image/Orange_stone.png",
   ];
 
   buttonLabels.forEach(function (label, index) {

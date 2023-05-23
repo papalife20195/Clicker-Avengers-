@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Avengero";
-  src: url('/fonts/AvengeroDisassembledRegular-nRvd4.ttf');
+  src: url('/src/assets/fonts/AvengeroDisassembledRegular-nRvd4.ttf');
 }
 
 .clik {
@@ -37,21 +37,20 @@ filter: saturate(170%);
 
 .buttons-container {
   display: flex;
-  flex-wrap: wrap; /* Добавляем перенос элементов на новую строку */
-  align-items: flex-start; /* Выравнивание элементов по верхнему краю */
-  width: 400px; /* Ширина контейнера */
-    justify-content: flex-end; /* Выравнивание элементов по правому краю */
+  flex-wrap: wrap; 
+  align-items: flex-start; 
+  width: 400px; 
+    justify-content: flex-end; 
     width: 100px;
-    margin-left: auto; /* Сдвиг контейнера вправо */
-    margin-right: 90px; /* Дополнительный сдвиг контейнера вправо */
+    margin-left: auto; 
+    margin-right: 90px; 
   }
   
 
 
 .buttons-container input {
-  margin-bottom: 1px; /* Пространство между кнопками */
-  width: 240px; /* Ширина кнопок */
-  height:120px;
+  margin-bottom: 1px; 
+  width: 240px; 
   transition: 0.2s;
 }
 

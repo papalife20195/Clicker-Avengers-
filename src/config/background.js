@@ -6,7 +6,7 @@ const background = () => {
   const videoElement = document.createElement("video");
   videoContainer.classList.add("backgroundVideo");
   const backgroundVideo = document.querySelector("body");
-  videoElement.src = "/image/thanosIinfinity.mp4";
+  videoElement.src = "/src/assets/image/thanosIinfinity.mp4";
   videoElement.autoplay = true;
   videoElement.loop = true;
   videoElement.muted = true;

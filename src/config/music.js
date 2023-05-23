@@ -3,7 +3,7 @@ const music = () => {
 // фоновая музыка
 
 const audio = document.createElement("audio");
-audio.src = "/music/Thanos_theme.mp3";
+audio.src = "/src/assets/music/Thanos_theme.mp3";
 audio.autoplay = true;
 audio.loop = true;
 document.body.appendChild(audio);
@@ -14,7 +14,7 @@ const toggleButton = document.createElement("button");
 toggleButton.classList.add("toggleButton");
 const image = document.createElement("img");
 
-image.src = "/image/Off_music.png";
+image.src = "/src/assets/image/Off_music.png";
 image.classList.add("imgAudio");
 toggleButton.appendChild(image);
 document.body.appendChild(toggleButton);

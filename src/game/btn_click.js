@@ -18,7 +18,7 @@ const handleBtnClicker = () => {
   clik2.appendChild(imgTan);
 
   const imgButton = document.createElement("img");
-  imgButton.src = "/image/Tanos.png";
+  imgButton.src = "/src/assets/image/Tanos.png";
   imgButton.style.width = "18%"; //высота блока, кнопка
   imgButton.style.height = "auto"; //ширина блока, кнопка
   imgButton.style.transition = "transform 0.2s";
