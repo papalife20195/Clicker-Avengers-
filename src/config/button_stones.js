@@ -22,8 +22,6 @@ const button_stones = () => {
     return button;
   }
 
-  
-
   const buttonsContainer = document.createElement("div");
   buttonsContainer.classList.add("buttons-container");
 
@@ -42,6 +40,5 @@ const button_stones = () => {
   });
 
   document.body.appendChild(buttonsContainer);
-
 };
 export default button_stones;

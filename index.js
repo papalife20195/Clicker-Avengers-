@@ -12,9 +12,15 @@ import background from "./src/config/background.js";
 import handleBtnClicker from "./src/game/btn_click.js";
 import music from "./src/config/music.js";
 import text from "./src/config/text.js";
+import btn from "./src/game/btn.js"
 
 button_stones();
+music();
 background();
 handleBtnClicker();
-music();
 text();
+btn();
+
+
+
+ 

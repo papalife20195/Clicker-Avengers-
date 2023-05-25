@@ -11,6 +11,7 @@ const handleBtnClicker = () => {
     block.appendChild(clickCounter);
 
     let count = 0;
+    let upgrade1 = 1;
 
   const imgTan = document.createElement("div");
   imgTan.classList.add("clik");
@@ -29,7 +30,7 @@ const handleBtnClicker = () => {
     imgButton.style.transform = "scale(1)";
   });
   imgButton.addEventListener("click", function () {
-    count++; // плюс один к счетчику
+    count = count + upgrade1; // плюс один к счетчику
     clickCounter.innerText = count; //присваение нового значение счетчика
   });
 
