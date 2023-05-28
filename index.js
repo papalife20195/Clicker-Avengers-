@@ -18,15 +18,17 @@ import background from "./src/config/background.js";
 import handleBtnClicker from "./src/game/btn_click.js";
 import music from "./src/config/music.js";
 import text from "./src/config/text.js";
-import btn from "./src/game/btn.js"
+import btn from "./src/game/btn_click_upgrade.js"
+import button_arm from "./src/config/button_arm.js"
 
 
 button_stones();
-// music();
+music();
 background();
 handleBtnClicker(gameState);
 btn(gameState);
 text();
+button_arm()
 
 
 

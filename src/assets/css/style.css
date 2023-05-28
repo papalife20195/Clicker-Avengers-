@@ -67,3 +67,22 @@ span {
   max-width: 100%;
   max-height: 100%;
 }
+
+.buttons-container-arm {
+  display: grid;
+  grid-template-columns: repeat(2, 18%); /* Два столбца по 8% ширины */
+  grid-gap: 12px; /* Расстояние между кнопками */
+  margin-top: -450px;
+}
+
+.buttons-container-arm input[type="image"] {
+  width: 57%;
+  height: auto;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+
+
+
+

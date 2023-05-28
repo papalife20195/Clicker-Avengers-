@@ -1,4 +1,4 @@
-import btn from "./btn.js";
+import btn from "./btn_click_upgrade.js";
 const handleBtnClicker = (gameState) => {
   // кнопка и Событие по нажатию, стили
 
