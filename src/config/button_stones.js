@@ -5,6 +5,7 @@ const button_stones = () => {
     const button = document.createElement("input");
     button.type = "image";
     button.src = imagePath;
+    button.id = label;
     button.addEventListener("mousedown", function () {
       button.style.transform = "scale(0.9)";
     });
@@ -13,6 +14,7 @@ const button_stones = () => {
     });
     button.addEventListener("click", function () {
       // Действия при нажатии на кнопку
+      gameState.update +=label.number
       console.log("Button clicked:", label);
     });
 

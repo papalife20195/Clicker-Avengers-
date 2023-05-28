@@ -6,6 +6,12 @@
 // ]
 // const randomGr = Math.floor(Math.random()*3);
 // alert(greeting[randomGr]);
+const gameState = {
+    count:0,
+    upgrade: 1,
+}
+
+ 
 
 import button_stones from "./src/config/button_stones.js";
 import background from "./src/config/background.js";
@@ -14,12 +20,14 @@ import music from "./src/config/music.js";
 import text from "./src/config/text.js";
 import btn from "./src/game/btn.js"
 
+
 button_stones();
-music();
+// music();
 background();
-handleBtnClicker();
+handleBtnClicker(gameState);
+btn(gameState);
 text();
-btn();
+
 
 
 
