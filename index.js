@@ -22,7 +22,7 @@ import btn from "./src/game/btn_click_upgrade.js"
 import button_arm from "./src/config/button_arm.js"
 
 
-button_stones();
+button_stones(gameState);
 music();
 background();
 handleBtnClicker(gameState);

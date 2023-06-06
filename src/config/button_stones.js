@@ -1,7 +1,7 @@
-const button_stones = () => {
+const button_stones = (gameState) => {
   const buttonLabels = ["Purple", "Blue", "Red", "Yellow", "Green", "Orange"];
 
-  function createButton(label, imagePath) {
+  function createButton(label, imagePath,index) {
     const button = document.createElement("input");
     button.type = "image";
     button.src = imagePath;

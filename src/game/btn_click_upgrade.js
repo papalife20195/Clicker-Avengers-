@@ -1,8 +1,9 @@
+
 const btn = (gameState, clickCounter) => {
   const upgradePurple = document.getElementById("Purple");
   upgradePurple.addEventListener("click", function () {
-      if (gameState.count >= 10) {
-          gameState.upgrade += 1;
+    if (gameState.count >= 10) {
+      gameState.upgrade += 1;
       gameState.count -= 10;
       clickCounter.innerText = gameState.count;
     }
@@ -16,7 +17,6 @@ const btn = (gameState, clickCounter) => {
       clickCounter.innerText = gameState.count;
     }
   });
-
   const upgradeRed = document.getElementById("Red");
   upgradeRed.addEventListener("click", function () {
     if (gameState.count >= 500) {
@@ -49,6 +49,6 @@ const btn = (gameState, clickCounter) => {
       clickCounter.innerText = gameState.count;
     }
 });
-}
 
+    }
 export default btn;
