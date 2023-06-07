@@ -26,9 +26,9 @@ button_stones(gameState);
 music();
 background();
 handleBtnClicker(gameState);
-btn(gameState);
 text();
 button_arm()
+btn(gameState,clickCounter);
 
 
 
