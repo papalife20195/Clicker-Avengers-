@@ -32,8 +32,13 @@ const handleBtnClicker = (gameState) => {
     gameState.count = gameState.count + gameState.upgrade; // плюс один к счетчику
     
     clickCounter.innerText = gameState.count; //присваение нового значение счетчика
+    localStorage.setItem("gameState", JSON.stringify(gameState));
   });
-
+  const savedGameState = localStorage.getItem("gameState");
+  if (savedGameState) {
+    gameState = JSON.parse(savedGameState);
+    clickCounter.innerText = gameState.count;
+  }
   imgTan.appendChild(imgButton);
   btn(gameState, clickCounter);
 };

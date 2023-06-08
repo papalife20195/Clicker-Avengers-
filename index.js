@@ -11,7 +11,7 @@ const gameState = {
     upgrade: 1,
 }
 
- 
+
 
 import button_stones from "./src/config/button_stones.js";
 import background from "./src/config/background.js";
@@ -29,6 +29,7 @@ handleBtnClicker(gameState);
 text();
 button_arm()
 btn(gameState,clickCounter);
+
 
 
 
